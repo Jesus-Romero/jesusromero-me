@@ -1,0 +1,18 @@
+.section-titles {
+    width: 100px;
+    align-self: flex-start;
+    text-align: right;
+}
+
+.section-titles-c {
+    color:  #2e6cb2;	
+}
+
+.section-text {
+    width: 100%;
+    text-align: left
+}
+
+.section-text-c {
+    color: #d6cdc5;
+}
