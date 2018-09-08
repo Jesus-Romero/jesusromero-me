@@ -1,11 +1,24 @@
-.Home {
-    text-align: left
-  }
-
-.Home-header{
-    color: white
+.Home-name {
+    color: #d6cdc5;
+    text-align: left;
+    font-family: "Lucida Sans Unicode";
 }
 
-.Personal-intro {
-    text-align: center
+.Home-name-a {
+   animation: fadeIn 1 7s ease;
+}
+
+.Home-title {
+    color: #2e6cb2;	
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.Home-title-a {
+     animation: fadeIn 3 2s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
