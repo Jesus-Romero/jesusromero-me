@@ -4,21 +4,33 @@
     font-family: "Lucida Sans Unicode";
 }
 
-.Home-name-a {
-   animation: fadeIn 1 7s ease;
-}
-
 .Home-title {
     color: #2e6cb2;	
     text-align: left;
     font-family: sans-serif;
 }
 
-.Home-title-a {
-     animation: fadeIn 3 2s ease-in;
+.Home-name-a {
+    animation: fadeInName 1 7s ease;
+ }
+
+ .Home-currenttitle-a {
+    animation: fadeInName 1 7s ease;
+    animation-delay: 2s;
 }
 
-@keyframes fadeIn {
+.Home-thetitle-a {
+     animation: fadeInTitle 2 2s linear, fadeInTitle 1 2s ease;
+     animation-delay: 3s;
+}
+
+
+@keyframes fadeInName {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeInTitle {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
