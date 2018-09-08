@@ -2,26 +2,28 @@
     color: #d6cdc5;
     text-align: left;
     font-family: "Lucida Sans Unicode";
+    opacity: 0;
 }
 
 .Home-title {
     color: #2e6cb2;	
     text-align: left;
     font-family: sans-serif;
+    opacity: 0;
 }
 
 .Home-name-a {
-    animation: fadeInName 1 7s ease;
+    animation: fadeInName 1 7s ease forwards;
  }
 
  .Home-currenttitle-a {
-    animation: fadeInName 1 7s ease;
-    animation-delay: 2s;
+    animation: fadeInName 1 5s linear forwards;
+    animation-delay: 3s;
 }
 
 .Home-thetitle-a {
-     animation: fadeInTitle 2 2s linear, fadeInTitle 1 2s ease;
-     animation-delay: 3s;
+     animation: fadeInTitle 1 2s ease forwards;
+     animation-delay: 6s;
 }
 
 

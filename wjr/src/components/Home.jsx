@@ -9,7 +9,7 @@ class Home extends Component {
           <h1 class="Home-name Home-name-a">Jesus Romero</h1>
         </header>
         <p>
-          <b className="Home-title Home-currenttitle-a">Current Title:</b> <p className="Home-title Home-thetitle-a">Recent Graduate</p>
+          <b className="Home-title Home-currenttitle-a">Current Title:</b> <b className="Home-title Home-thetitle-a">Recent Graduate</b>
         </p>
       </div>
     );
