@@ -1,6 +1,7 @@
 body {
-  background-color: #0f1319;
+  background-color: #101010;
   padding: 73px;
   margin: auto;
-  width:75%
+  width:75%;
+  align-content: center;
 }

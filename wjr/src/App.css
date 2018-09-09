@@ -1,18 +1,22 @@
-.section-titles {
-    width: 100px;
-    align-self: flex-start;
+.section-title {
     text-align: right;
-}
-
-.section-titles-c {
-    color:  #2e6cb2;	
+    padding: 30px;
 }
 
 .section-text {
-    width: 100%;
-    text-align: left
+    text-align: left;
+    padding: 30px;
+}
+
+.section-title-c {
+    color: #FE6F5E;
+    font-weight:200;
 }
 
 .section-text-c {
     color: #d6cdc5;
+}
+
+.line-adjustment {
+  line-height: 0px;
 }
