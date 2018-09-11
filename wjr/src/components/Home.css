@@ -10,7 +10,7 @@
 
 .Home-name {
     color: #d6cdc5;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     opacity: 0;
     padding-bottom: 0px;
     font-size: 40px;
@@ -29,7 +29,7 @@
 }
 
 .line-adjustment-title {
-  line-height: 70%;
+  line-height: 80%;
 }
 
 .Home-name-a {

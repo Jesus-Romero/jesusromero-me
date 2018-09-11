@@ -11,7 +11,7 @@ class About extends Component {
         <div className="section-text">
           <font className="section-text-c">Hello! I'm Jesus Romero, a recent UT Austin Graduate with an interest in Software Engineering, Web Development, and Cloud Operations.
           I'm seeking roles that will supply me with Full-Stack and/or DevOps experience in an industry setting to harbor proper Engineering/Development habits and
-          eventually work on challenging projects. </font>
+          eventually work on challenging projects with new technologies.</font>
         </div>
       </section>
     );
