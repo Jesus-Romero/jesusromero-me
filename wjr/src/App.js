@@ -12,6 +12,7 @@ class App extends Component {
       	<Home />
         <About />
         <Skills />
+        <Projects />
       </div>
     );
   }

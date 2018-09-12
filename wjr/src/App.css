@@ -1,29 +1,29 @@
 .block {
   width: 100%;
   margin-bottom: 10vh;
-  display: inline-block;
+  padding-left: 21%;
+  padding-right: 15%;
 }
 
 .section-title {
-    text-align: right;
-    margin-left: 13%;
-    margin-bottom: 20px;
-    width: 10%;
+  text-align: right;
+  margin-left: 13%;
+  margin-bottom: 20px;
+  width: 10%;
 }
 
 .section-text {
-    text-align: left;
-    margin-left: 22%;
-    margin-right: 22%;
+  padding-right: 0%;
+  padding-left: 0%;
 }
 
 .section-title-c {
-    color: #FE6F5E;
-    font-weight: 300;
-    font-family: 'Inconsolata', monospace;
+  color: #FE6F5E;
+  font-weight: 300;
+  font-family: 'Inconsolata', monospace;
 }
 
 .section-text-c {
-    color: #d6cdc5;
-    font-family: 'Rubik', sans-serif;
-  }
+  color: #d6cdc5;
+  font-family: 'Rubik', sans-serif;
+}

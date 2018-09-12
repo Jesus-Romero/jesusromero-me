@@ -1,15 +1,29 @@
+.skills-encompass {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 18%;
+  padding-right: 15%;
+}
+
 .skills-block {
-  width: 100%;
+  width: auto;
+  align-content: center;
   margin-bottom: 10vh;
-  display: inline-block;
-  margin-left: 22%;
-  margin-right: 22%;
 }
 
 .skills-sections {
-  width: 20%;
-  float: left;
-  margin-left: 5vw;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 160px;
   text-align: center;
-  line-height: 75%;
+}
+
+.skills-section-header {
+  margin-bottom: 10px;
+}
+
+.skills-tighten {
+  line-height: 50%;
 }
