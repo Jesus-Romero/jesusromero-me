@@ -1,6 +1,6 @@
 .projects-description {
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 3%;
   margin-bottom: 60px;
 }
 
@@ -10,8 +10,16 @@
 }
 
 .projects-tools {
-  margin-left: 5px;
-  margin-right: 5px;
+  align-self: flex-start;
+  margin-left: 10px;
+  margin-right: 10px;
   opacity: .7;
   font-size: calc(12px + .20vw);
+}
+
+.projects-title-tools {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 4%;
 }

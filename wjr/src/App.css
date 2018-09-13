@@ -8,7 +8,6 @@
 .section-title {
   text-align: right;
   margin-left: 13%;
-  margin-bottom: 20px;
   width: 10%;
 }
 
@@ -26,4 +25,14 @@
 .section-text-c {
   color: #d6cdc5;
   font-family: 'Rubik', sans-serif;
+}
+
+.nav-c {
+  background-color: #FE6F5E;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  bottom:0%;
+  max-width: 10px;
+  min-width: 10px;
 }
