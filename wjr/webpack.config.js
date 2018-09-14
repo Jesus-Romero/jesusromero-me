@@ -2,14 +2,14 @@ const webpack = require('webpack');
 const config = {
   entry: __dirname + '/src/index.js',
     output: {
-      path: __dirname + '/static',
+      path: __dirname + '/../app/static',
       filename: 'bundle.js',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.css']
   },
   module: {
-    rules: [ 
+    rules: [
       {
         test: /\.jsx?/,
         exclude: /node_modules/,
