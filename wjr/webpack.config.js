@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const config = {
   entry: __dirname + '/src/index.js',
     output: {
-      path: __dirname + '/../app/static',
+      path: __dirname +'/static/',
       filename: 'bundle.js',
   },
   resolve: {

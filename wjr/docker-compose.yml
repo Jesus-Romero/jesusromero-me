@@ -1,0 +1,12 @@
+version: '0.1'
+services:
+  wjr:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
+
+networks:
+  default:
+    name: wjr
