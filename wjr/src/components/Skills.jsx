@@ -8,7 +8,7 @@ class Skills extends Component {
       <div className="section-title">
         <h5 className="section-title-c">Skills</h5>
       </div>
-      <div className="skills-block skills-encompass">
+      <div className="skills-block">
         <div className="skills-sections">
           <div className="skills-section-header">
             <b className="section-title-c skills-section-header">Languages</b>
