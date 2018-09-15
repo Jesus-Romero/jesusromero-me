@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className="signature-block section-title-c signature">
-        developed and designed by jesus romero, 2018
+        jesus romero, 2018
       </div>
     );
   }
