@@ -10,23 +10,29 @@ class Skills extends Component {
       </div>
       <div className="skills-block">
         <div className="skills-sections">
+
+
           <div className="skills-section-header">
             <b className="section-title-c skills-section-header">Languages</b>
           </div>
           <p className="section-text-c skills-tighten">Java</p>
           <p className="section-text-c skills-tighten">Python</p>
-          <p className="section-text-c skills-tighten">SQL</p>
           <p className="section-text-c skills-tighten">C</p>
           <p className="section-text-c skills-tighten">JavaScript</p>
         </div>
+
+
         <div className="skills-sections">
           <div className="skills-section-header">
             <b className="section-title-c skills-section-header">Data Management</b>
           </div>
+          <p className="section-text-c skills-tighten">SQL</p>
           <p className="section-text-c skills-tighten">UML Design</p>
           <p className="section-text-c skills-tighten">Firebase</p>
           <p className="section-text-c skills-tighten">PostgreSQL</p>
         </div>
+
+
         <div className="skills-sections">
           <div className="skills-section-header">
             <b className="section-title-c skills-section-header">Tools</b>
@@ -36,6 +42,8 @@ class Skills extends Component {
           <p className="section-text-c skills-tighten">REST API</p>
           <p className="section-text-c skills-tighten">AWS EC2</p>
         </div>
+
+
         <div className="skills-sections">
           <div className="skills-section-header">
             <b className="section-title-c">Frameworks</b>
@@ -44,6 +52,8 @@ class Skills extends Component {
           <p className="section-text-c skills-tighten">React</p>
           <p className="section-text-c skills-tighten">Selenium</p>
         </div>
+
+        
       </div>
     </div>
     );

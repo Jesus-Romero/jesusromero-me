@@ -1,9 +1,29 @@
 .signature {
-  text-align: center;
-  font-size: 10px;
+  text-align: right;
+  font-size: 20px;
+  min-width: 30%;
+  float: right;
 }
 
 .signature-block {
   padding-left: 21%;
   padding-right: 15%;
+  width: inherit;
+}
+
+.contact-me {
+  width: 220px;
+  float: left;
+}
+
+.contact-size {
+  font-size: 12px;
+}
+
+.contact-logo {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  float: left;
 }
