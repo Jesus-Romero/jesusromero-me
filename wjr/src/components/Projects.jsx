@@ -8,10 +8,10 @@ class Projects extends Component {
       <div className="section-title">
         <h5 className="section-title-c">Projects</h5>
       </div>
+
+
       <div className="block">
         <div className="section-text">
-
-
           <div className="projects-title">
             <b className="section-title-c">pocketchef.me</b>
           </div>

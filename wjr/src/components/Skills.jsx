@@ -8,6 +8,8 @@ class Skills extends Component {
       <div className="section-title">
         <h5 className="section-title-c">Skills</h5>
       </div>
+
+
       <div className="skills-block">
         <div className="skills-sections">
 
@@ -53,7 +55,7 @@ class Skills extends Component {
           <p className="section-text-c skills-tighten">Selenium</p>
         </div>
 
-        
+
       </div>
     </div>
     );

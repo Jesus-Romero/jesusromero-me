@@ -1,18 +1,5 @@
-.signature {
-  text-align: right;
-  font-size: 20px;
-  min-width: 30%;
-  float: right;
-}
-
-.signature-block {
-  padding-left: 21%;
-  padding-right: 15%;
-  width: inherit;
-}
-
 .contact-me {
-  width: 220px;
+  max-width: 90%;
   float: left;
 }
 
@@ -26,4 +13,17 @@
   margin-top: 2px;
   margin-bottom: 2px;
   float: left;
+}
+
+.signature {
+  text-align: right;
+  font-size: 14px;
+  min-width: 200px;
+  float: right;
+}
+
+.signature-block {
+  padding-left: 21%;
+  padding-right: 18%;
+  width: inherit;
 }
