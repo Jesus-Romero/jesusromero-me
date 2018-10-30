@@ -10,7 +10,6 @@ class App extends Component {
   render() {
     return (
     <div>
-      <a id="home"></a>
       <div className="nav nav-a" id="disp-nav">
         <p><a href="#home" className="section-title-c">home</a></p>
         <p><a href="#about" className="section-title-c">about</a></p>
@@ -20,7 +19,7 @@ class App extends Component {
       </div>
 
 
-    	<Home/>
+    	<a id="home"></a><Home/>
       <a id="about"></a><About/>
       <a id="skills"></a><Skills/>
       <a id="projects"></a><Projects/>
