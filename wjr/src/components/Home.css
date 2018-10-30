@@ -3,7 +3,7 @@
   text-align: right;
   margin-left: 13%;
   margin-right: 13%;
-  margin-top: 45vh;
+  padding-top: 52vh;
   margin-bottom: 40vh;
 }
 
@@ -15,16 +15,16 @@
     font-size: 40px;
 }
 
-.line-adjustment-name {
-  line-height: 90%;
-}
-
 .Home-title {
     color: #FE6F5E;
     font-family: 'Inconsolata', monospace;
     opacity: 0;
     padding-top: 0px;
     font-size: 18px;
+}
+
+.line-adjustment-name {
+  line-height: 90%;
 }
 
 .line-adjustment-title {
@@ -95,8 +95,3 @@
      animation: fadeIn 1 500ms ease forwards;
      animation-delay: 7500ms;
   }
-
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}

@@ -5,9 +5,7 @@ class Projects extends Component {
   render() {
     return (
     <section>
-      <div className="section-title">
-        <h5 className="section-title-c">Projects</h5>
-      </div>
+      <font className="section-title section-title-c">Projects</font>
 
 
       <div className="block">
